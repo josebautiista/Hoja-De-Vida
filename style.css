@@ -1,0 +1,112 @@
+body{
+    background: #00FFAB;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portafolio{
+    width: 70%;
+    background:#14C38E;
+    height: 900px;
+    margin: 30px;
+    display: flex;
+}
+
+.foto-datos{
+    width: 40%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+a p{
+    color: #00FFAB;
+}
+
+.foto {
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intereses, .idiomas, .qr{
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.foto img{
+    height: 90%;
+    border-radius: 50%;
+}
+
+.datosPersonales{
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 20px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.contenido{
+    margin-left: 30px;
+    color: #E3FCBF;
+    font-size: 12px;
+}
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #00FFAB;
+}
+.datosPersonales div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.titulo{
+    color: #E3FCBF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subtitulo{
+    color: #E3FCBF;
+    font-weight: 100;
+    margin: 0;
+    font-size: 13px;
+}
+
+ul{
+    padding: 0;
+}
+
+.experiencia-educacion{
+    width: 60%;
+    height: 100%;
+    background: #E3FCBF;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+      max-width: 100%;
+    }
+}
+  
+  
+  
+  
+  
