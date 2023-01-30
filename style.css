@@ -9,13 +9,13 @@ body{
 .portafolio{
     width: 70%;
     background:#14C38E;
-    height: 900px;
+    height: auto;
     margin: 30px;
     display: flex;
 }
 
 .foto-datos{
-    width: 40%;
+    width: 35%;
     height: 900px;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ body{
 .contenido{
     margin-left: 30px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 p{
     margin: 0;
@@ -63,7 +63,13 @@ p{
 
 a{
     text-decoration: none;
-    color: #00FFAB;
+    color: green;
+}
+
+.link  {
+    font-size: 14px;
+    color: green;
+    margin: 0 20px;
 }
 .datosPersonales div{
     display: flex;
@@ -82,26 +88,107 @@ a{
     color: white;
     font-weight: 100;
     margin: 0;
-    font-size: 13px;
+    font-size: 15px;
 }
 
-ul{
+.lista{
+    margin: 10px;
     padding: 0;
 }
 
 .qr img{
-    width: 80px;
-    height: 85px;
+    width: 150px;
+    height: 150px;
     align-self: center;
     margin: 10px 0;
 }
 
 .experiencia-educacion{
-    width: 60%;
-    height: 100%;
+    width: 65%;
     background: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
+h1, h2{
+    margin-bottom: 10px;
+    color: #14C38E;
+    font-weight: bold;
+}
+
+h2 img{
+    margin-right: 10px ;
+}
+.contenidoE{
+    color: #14C38E;    
+    font-size: 12px;
+}
+
+.laboral, .estudios{
+    color: #14C38E;    
+    font-size: 12px;
+    list-style-type: inherit;
+    padding-left:30px;
+}
+
+.laboral div, .estudios div{
+    display: flex;
+}
+
+.certificados{
+    background: #14C38E;
+    color: white;
+    border-radius: 40px;
+    padding: 5px;
+}
+.laboral li, .estudios li{
+    margin-bottom: 7px;
+}
+
+.contenidoL{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.tituloL{
+    color: #14C38E;
+    font-weight: bold;
+    width: 50%;
+}
+
+.subtituloL{
+    color: black;
+}
+
+.habilidades div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.skills{
+    background: #14C38E;
+    color: white;
+    border-radius: 40px;
+    width: auto;
+    padding: 10px;
+}
+
+.referencias p{
+    color: #14C38E;
+    width: auto;
+}
+
+.referencias ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: inherit;
+    color: #14C38E;
+    margin-left: 30px;
+}
 @media screen and (max-width: 767px) {
     body {
       max-width: 100%;
