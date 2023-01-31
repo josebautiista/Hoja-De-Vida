@@ -9,7 +9,7 @@ body{
 .portafolio{
     width: 80%;
     background:#14C38E;
-    height: 1200;
+    height: auto;
     margin: 30px;
     display: flex;
 }
@@ -110,7 +110,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    height: 1100px;
+    height: auto;
 }
 
 h1, h2{
