@@ -18,9 +18,10 @@ body{
     width: 35%;
     height: 900px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .foto {
@@ -32,7 +33,7 @@ body{
 }
 
 .intereses, .idiomas, .qr{
-    height: 14%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     padding: 0 20px;
@@ -141,7 +142,13 @@ h2 img{
     background: #14C38E;
     color: white;
     border-radius: 40px;
-    padding: 5px;
+    padding: 10px;
+}
+
+.certificados:hover{
+    background: white;
+    color: #14C38E;
+    border: 1px solid  #14C38E;
 }
 .laboral li, .estudios li{
     margin-bottom: 7px;
@@ -190,11 +197,7 @@ h2 img{
     color: #14C38E;
     margin-left: 30px;
 }
-@media screen and (max-width: 767px) {
-    body {
-      max-width: 100%;
-    }
-}
+
   
   
   
