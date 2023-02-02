@@ -12,6 +12,7 @@ body{
     height: auto;
     margin: 30px;
     display: flex;
+    min-width: 900px;
 }
 
 .foto-datos{
