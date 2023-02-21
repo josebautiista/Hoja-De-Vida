@@ -6,6 +6,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    margin: 0;
+}
+
 .portafolio{
     width: 80%;
     background:#14C38E;
@@ -17,92 +21,69 @@ body{
 
 .foto-datos{
     width: 35%;
-    height: 900px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
+    padding: 30px 0;
 }
 
 .foto {
-    height: 14%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-
-.intereses, .idiomas, .qr{
-    height: 10%;
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
+    gap: 20px;
 }
 
 .foto img{
-    height: 90%;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
 }
 
-.datosPersonales{
-    height: 44%;
+.foto_titulo{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.foto_contenido{
+    text-align: center;
+    color:white;
+}
+
+/*Datos personales */
+
+.datosPersonales, .idiomas, .qr{
     display: flex;
     align-items: flex-start;
     padding: 0px 20px;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
-.contenido{
-    margin-left: 30px;
-    color: white;
-    font-size: 14px;
-}
-p{
-    margin: 0;
-}
-
-a{
-    text-decoration: none;
-}
-
-.link  {
-    font-size: 14px;
-    color: #FED049;
-    margin: 10px 20px;
-}
-.datosPersonales div{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin: 10px 0;
-}
-
-.titulo{
+.datosPersonales_titulo, .idiomas_titulo, .qr_titulo{
     color: white;
     font-weight: bold;
-    font-size: 20px;
 }
 
-.subtitulo{
+.datosPersonales_contenido, .idiomas_contenido, .qr_contenido{
+    display: flex;
     color: white;
-    font-weight: 100;
-    margin: 0;
-    font-size: 15px;
-}
-
-.lista{
-    margin: 10px;
-    padding: 0;
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 20px;
 }
 
 .qr img{
     width: 150px;
     height: 150px;
     align-self: center;
-    margin: 10px 0;
 }
+
+/* Objetivo profesional*/
 
 .experiencia-educacion{
     width: 65%;
@@ -114,18 +95,59 @@ a{
     height: auto;
 }
 
-h1, h2{
-    margin-bottom: 10px;
+.descripcion, .experiencia, .estudio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.descripcion_titulo, .experiencia_titulo, .estudio_titulo{
     color: #14C38E;
     font-weight: bold;
+    display: flex;
+}
+
+.hard_skill-titulo{
+    color: #14C38E;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.descripcion_contenido{
+    color: #14C38E;
+    font-size: 16px;
+}
+
+.descripcion_titulo img{
+    margin-right: 10px;
+}
+
+/*experiencia Laboral*/
+
+.titulo_laboral, .titulo_estudio{
+    font-size: 14px;
+    color: #14C38E;
+    font-weight: bold;
+    width: 50%;
 }
 
 h2 img{
     margin-right: 10px ;
 }
-.contenidoE{
-    color: #14C38E;    
-    font-size: 12px;
+
+.contenidoL{
+    display: flex;
+    gap: 5px;
+}
+
+.contenidoL a{
+    text-decoration: none;
+}
+
+.certificados{
+    text-decoration: none;
 }
 
 .laboral, .estudios{
@@ -166,42 +188,34 @@ h2 img{
     width: 100%;
 }
 
-.tituloL{
-    color: #14C38E;
-    font-weight: bold;
-    width: 50%;
-}
-
 .subtituloL{
     color: black;
 }
 
-.habilidades div{
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.hard_skill, .soft_skill{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    margin-left: 30px;
+    gap: 10px;
+    justify-content: center;
 }
+
 .skills{
     background: #14C38E;
     color: white;
     border-radius: 40px;
-    width: auto;
     padding: 10px;
-}
-
-.referencias p{
-    color: #14C38E;
     width: auto;
 }
 
-.referencias ul{
-    display: flex;
-    gap: 50px;
-    list-style-type: inherit;
-    color: #14C38E;
-    margin-left: 30px;
-}
+
+
 
   
   
