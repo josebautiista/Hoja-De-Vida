@@ -1,217 +1,268 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="imagenes/logoTitulo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="imagenes/logoTitulo.png" />
     <title>Portafolio</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-    </style>
-</head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
 
-<body>
+  <body>
     <section class="portafolio">
-        <section class="foto-datos">
+      <section class="foto-datos">
+        <div class="foto">
+          <img src="imagenes/jose.jpg" alt="" />
+          <div>
+            <h1 class="foto_titulo">Jose Bernardo Bautista Rodriguez</h1>
+            <h2 class="foto_contenido">Desarrollador de Software</h2>
+          </div>
+        </div>
+        <div class="datosPersonales">
+          <h3 class="datosPersonales_titulo">DATOS PERSONALES</h3>
+          <ul>
+            <li class="datosPersonales_contenido">(+57) 3012235489</li>
+            <li class="datosPersonales_contenido">josebautiista@gmail.com</li>
+            <li class="datosPersonales_contenido">
+              www.linkedin.com/in/jose-bautista-sft/
+            </li>
+            <li class="datosPersonales_contenido">Neiva, Colombia</li>
+            <li class="datosPersonales_contenido">github.com/josebautiista</li>
+          </ul>
+        </div>
+        <div class="idiomas">
+          <p class="idiomas_titulo">IDIOMAS</p>
+          <ul class="idiomas_lista">
+            <li class="idiomas_contenido">Español: Nativo</li>
+            <li class="idiomas_contenido">Ingles: B1</li>
+          </ul>
+        </div>
+        <div class="qr">
+          <p class="qr_titulo">PORTAFOLIO</p>
+          <img src="imagenes/qr.png" class="qr_contenido" alt="" />
+        </div>
+      </section>
 
-            <div class="foto">
-                <img src="imagenes/jose.jpg" alt="">
-                <div>
-                    <h1 class="foto_titulo">Jose Bernardo Bautista Rodriguez</h1>
-                    <h2 class="foto_contenido">Desarrollador Front-End</h2>
+      <section class="experiencia-educacion">
+        <div class="descripcion">
+          <h2 class="descripcion_titulo">
+            <img src="imagenes/laboral.png" alt="" /> OBJETIVO PROFESIONAL
+          </h2>
+          <p class="descripcion_contenido">
+            Hola, soy un apasionado del desarrollo de software, he explorado
+            diversas tecnologías como REACT, NodeJS, SpringBoot, MySQL y Astro,
+            mientras he adquirido habilidades en lenguajes de programación como
+            Java, C++, y especialmente, JavaScript, donde he centrado gran parte
+            de mi experiencia. Me encanta enfrentar desafíos y alcanzar mis
+            metas con determinación, siempre siendo un entusiasta del
+            aprendizaje continuo. Estoy convencido de que mi enfoque proactivo y
+            mi compromiso serían un valioso complemento para cualquier equipo de
+            desarrollo. En mi trayectoria laboral, he desarrollado proyectos que
+            incluyen el scraping de páginas web, la optimización y la
+            integración de ChatGPT, así como la creación de componentes
+            especializados en solicitudes.
+            <br />
+            <br />
+            Mi objetivo es seguir creciendo y aportando mis conocimientos a
+            proyectos desafiantes, aprovechando mi experiencia en diversas
+            tecnologías y mi capacidad para resolver problemas de manera
+            creativa y efectiva.
+          </p>
+        </div>
+        <div class="estudio">
+          <h2 class="estudio_titulo">
+            <img src="imagenes/educacion.png" alt="" />EDUCACIÓN Y
+            CERTIFICACIONES
+          </h2>
+          <ul class="estudios">
+            <li>
+              <div>
+                <p class="titulo_estudio">Febrero 2022 - Actualmente</p>
+                <div class="contenidoL">
+                  <p class="titulo_estudio">
+                    Técnologo en Desarrollo De Software
+                  </p>
+                  <p class="subtituloL">Universidad Surcolombiana</p>
+                  <p>
+                    Carrera tecnológica en universidad donde he aprendido HTML,
+                    CSS, JavaScript, SpringBoot, Java, Programación en bash,
+                    c++, terminal Linux y MySQL
+                  </p>
                 </div>
-
-            </div>
-            <div class="datosPersonales">
-                <h3 class="datosPersonales_titulo">DATOS PERSONALES</h3>
-                <ul>
-                    <li class="datosPersonales_contenido">(+57) 3012235489</li>
-                    <li class="datosPersonales_contenido">josebautiista@gmail.com</li>
-                    <li class="datosPersonales_contenido">www.linkedin.com/in/jose-bautista-sft/</li>
-                    <li class="datosPersonales_contenido">Neiva, Colombia</li>
-                    <li class="datosPersonales_contenido">github.com/josebautiista</li>
-                </ul>
-
-            </div>
-            <div class="idiomas">
-                <p class="idiomas_titulo">IDIOMAS</p>
-                <ul class="idiomas_lista">
-                    <li class="idiomas_contenido">Español: Nativo</li>
-                    <li class="idiomas_contenido">Ingles: B1</li>
-                </ul>
-            </div>
-            <div class="qr">
-                <p class="qr_titulo">PORTAFOLIO</p>
-                <img src="imagenes/qr.png" class="qr_contenido" alt="">
-            </div>
-
-        </section>
-
-        <section class="experiencia-educacion">
-            <div class="descripcion">
-                <h2 class="descripcion_titulo"><img src="imagenes/laboral.png" alt="">  OBJETIVO PROFESIONAL</h2>
-                <p class="descripcion_contenido">Tengo habilidades necesarias para construir aplicaciones web 
-                    interactivas y atractivas, he utilizado tecnologías como HTML, CSS, JavaScript y REACT, 
-                    conocimientos en control de reporsitorios en GitHub, metodologias ágiles, 
-                    trabajo en equipo y comunicación asertiva, Todas estass habilidades las he adquirido en estudios universitarios, 
-                    en un programa dictado por ORACLE y estudios propios en la web.
-                </p>
-            </div>
-            <div class="estudio">
-                <h2 class="estudio_titulo"> <img src="imagenes/educacion.png" alt="">EDUCACIÓN Y CERTIFICACIONES</h2>
-                <ul class="estudios">
-                    <li>
-                        <div>
-                            <p class="titulo_estudio">Febrero 2022 - Actualmente</p>
-                            <div class="contenidoL">
-                                <p class="titulo_estudio">Técnologo en Desarrollo De Software</p>
-                                <p class="subtituloL">Universidad Surcolombiana</p>
-                                <p>Carrera tecnologica en universidad donde he aprendido manejo de Pseint, Java,
-                                    Programación en bash y manejo de sistema operativo Linux mediante la terminal</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="titulo_estudio">Noviembre 2022 - Junio 2023</p>
-                            <div class="contenidoL">
-                                <p class="titulo_estudio">Desarrollador Junior Front-End</p>
-                                <p class="subtituloL">Oracle + Alura Latam</p>
-                                <p>Curso de programación dictado por Alula en compañia con Oracle (ONE) donde he
-                                    aprendido Soft Skills, manejo avanzado de HTML, CSS, JavaScript y REACT como experiencia
-                                    quedan algunos proyectos que he hecho que se pueden encontrar en mi 
-                                    <a href="https://github.com/josebautiista" target="_blank">GitHut</a></p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="titulo_estudio">Junio 2021 - Noviembre 2021</p>
-                            <div class="contenidoL">
-                                <p class="titulo_estudio">Desarrollador Web</p>
-                                <p class="subtituloL">PLATZI</p>
-                                <p>Hice cursos de Programación mediante la plataforma Platzi donde aprendí bases de HTML
-                                    y lógica de programación con JavaScript</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="titulo_estudio">Enero 2003 - Noviembre 2016</p>
-                            <div class="contenidoL">
-                                <p class="titulo_estudio">Bachiller Técnico</p>
-                                <p class="subtituloL">Institución Educativa Técnico Superior</p>
-                                <p>Título de bachiller academico con técnico en electricidad y electrónica</p>
-                            </div>
-
-                        </div>
-                    </li>
-                    <a href="https://drive.google.com/drive/folders/1I8oKpWU133r3Xo0FhEwc0lJCZrm4ROaa?usp=sharing"
-                        target="_blank" class="certificados">CERTIFICADOS EDUCATIVOS</a>
-                </ul>
-            </div>
-            <div class="experiencia">
-                <h2 class="experiencia_titulo"><img src="imagenes/laboral.png" alt="">EXPERIENCIA LABORAL</h2>
-                <ul class="laboral">
-                    <li>
-                        <div>
-                            <p class="titulo_laboral">Junio 2023</p>
-                            <div class="contenidoL">
-                                <p class="titulo_laboral">Traducción contenido página web</p>
-                                <p class="subtituloL">Independiente</p>
-                                <p>Me encargué de traducir y actualizar diversos elementos de un sitio web informativo. 
-                                    Se requería que el idioma principal del sitio fuera el inglés. Dado que el sitio 
-                                    había sido creado hace varios años y no se había actualizado su contenido, 
-                                    trabajamos en mejorar su funcionalidad y asegurarnos de que todo estuviera 
-                                    funcionando correctamente.
-                                </p>
-                            </div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="titulo_laboral">Abril 2023</p>
-                            <div class="contenidoL">
-                                <p class="titulo_laboral">Mapa interactivo de Neiva</p>
-                                <p class="subtituloL">Independiente</p>
-                                <p>Colaboré en un proyecto de grado que consistió en desarrollar un mapa interactivo 
-                                    de los barrios de Neiva. Utilizando PHP, HTML, CSS y JavaScript, creé el mapa que 
-                                    mostraba datos específicos de cada barrio, como población por género, edades, etc y 
-                                    los datos fueron obtenidos de una base de datos creada con Workbench.
-                                </p>
-                            </div>
-
-                        </div>
-                    </li>
-                    <!-- <li>
-                        <div>
-                            <p class="titulo_laboral">Marzo 2021 - Febrero 2023</p>
-                            <div class="contenidoL">
-                                <p class="titulo_laboral">Domiciliario</p>
-                                <p class="subtituloL">Pizza Hut</p>
-                                <p>Realizaba entregas de comida en la ciudad, labores de caja con diferentes medios de pagos, atención al
-                                    cliente y trabajo en equipo.</p>
-                            </div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="titulo_laboral">Septiembre 2019 - Marzo 2021</p>
-                            <div class="contenidoL">
-                                <p class="titulo_laboral">Domiciliario</p>
-                                <p class="subtituloL">Domicilios.com</p>
-                                <p>Recepción y entrega de comida en la ciudad de Neiva, manejo de dinero en efectivo.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="titulo_laboral">Junio 2018 - Julio 2019</p>
-                            <div class="contenidoL">
-                                <p class="titulo_laboral">Cajero Administrador</p>
-                                <p class="subtituloL">Merendero Las Brisas</p>
-                                <p>Manejo de personal, control de inventarios, manejo 
-                                   de caja con diferentes medios de pago, atención al cliente y trabajo en equipo.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p class="titulo_laboral">Marzo 2017 - Marzo 2018</p>
-                            <div class="contenidoL">
-                                <p class="titulo_laboral">Auxiliar De Policia</p>
-                                <p class="subtituloL">Policia Nacional</p>
-                                <p>Labores de vigilancia, manejo adecuado de la fuerza, derecho penal y control de personas</p>
-                            </div>
-                        </div>
-                    </li> -->
-                    <a href="https://drive.google.com/drive/folders/1I8oKpWU133r3Xo0FhEwc0lJCZrm4ROaa?usp=sharing"
-                        target="_blank" class="certificados">CERTIFICADOS LABORALES</a>
-                </ul>
-            </div>
-            <div class="habilidades">
-                <div class="hard_skill">
-                <h2 class="hard_skill-titulo">HABILIDADES TÉCNICAS</h2>
-                <P class="skills">HTML</P>
-                <P class="skills">JAVASCRIPT</P>
-                <P class="skills">CSS</P>
-                <P class="skills">TERMINAL LINUX</P>
-                <P class="skills">HERRAMIENTAS OFIMATICAS</P>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="titulo_estudio">Noviembre 2022 - Junio 2023</p>
+                <div class="contenidoL">
+                  <p class="titulo_estudio">Desarrollador Junior Front-End</p>
+                  <p class="subtituloL">Oracle + Alura Latam</p>
+                  <p>
+                    Curso de programación dictado por Alula en compañia con
+                    Oracle (ONE) donde he aprendido Soft Skills, manejo avanzado
+                    de HTML, CSS, JavaScript y REACT como experiencia quedan
+                    algunos proyectos que he hecho que se pueden encontrar en mi
+                    <a href="https://github.com/josebautiista" target="_blank"
+                      >GitHut</a
+                    >
+                  </p>
                 </div>
-
-                <div class="soft_skill">
-                <h2 class="hard_skill-titulo">HABILIDADES BLANDAS</h2>
-                <P class="skills">RESOLUCIÓN DE PROBLEMAS</P>
-                <P class="skills">COMUNICACIÓN</P>
-                <p class="skills">APRENDIZAJE CONTINUO</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="titulo_estudio">Junio 2021 - Noviembre 2021</p>
+                <div class="contenidoL">
+                  <p class="titulo_estudio">Desarrollador Web</p>
+                  <p class="subtituloL">PLATZI</p>
+                  <p>
+                    Hice cursos de Programación mediante la plataforma Platzi
+                    donde aprendí bases de HTML y lógica de programación con
+                    JavaScript
+                  </p>
                 </div>
-            </div>
-        </section>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="titulo_estudio">Enero 2003 - Noviembre 2016</p>
+                <div class="contenidoL">
+                  <p class="titulo_estudio">Bachiller Técnico</p>
+                  <p class="subtituloL">
+                    Institución Educativa Técnico Superior
+                  </p>
+                  <p>
+                    Título de bachiller academico con técnico en electricidad y
+                    electrónica
+                  </p>
+                </div>
+              </div>
+            </li>
+            <a
+              href="https://drive.google.com/drive/folders/1I8oKpWU133r3Xo0FhEwc0lJCZrm4ROaa?usp=sharing"
+              target="_blank"
+              class="certificados"
+              >CERTIFICADOS EDUCATIVOS</a
+            >
+          </ul>
+        </div>
+        <div class="experiencia">
+          <h2 class="experiencia_titulo">
+            <img src="imagenes/laboral.png" alt="" />EXPERIENCIA LABORAL
+          </h2>
+          <ul class="laboral">
+            <li>
+              <div>
+                <p class="titulo_laboral">Julio 2023 - Actualmente</p>
+                <div class="contenidoL">
+                  <p class="titulo_laboral">Desarrollador Full-Stack</p>
+                  <p class="subtituloL">STK Groups</p>
+                  <p>
+                    Desarrollo de proyectos de scraping y creación de productos
+                    en shopify, integración de fine tunning de chatGPT y
+                    desarrollo de aplicaciones full stack con nodeJS, MySQL y
+                    REACT.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <p class="titulo_laboral">Noviembre 2023</p>
+                <div class="contenidoL">
+                  <p class="titulo_laboral">CRUD SpringBoot</p>
+                  <p class="subtituloL">Independiente</p>
+                  <p>
+                    Desarrolle una app básica de un CRUD con SpringBoot, MySQL y
+                    Thymeleaf
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <p class="titulo_laboral">Septiembre 2023 - Octubre 2023</p>
+                <div class="contenidoL">
+                  <p class="titulo_laboral">Migración WordPress a Astro</p>
+                  <p class="subtituloL">Independiente</p>
+                  <p>
+                    Desarrollo de página web que estaba creada con WordPress y
+                    se hizo la actualización a Astro, fue una página web
+                    informativa para la empresa IPMoviles, se implementó el
+                    cambio de tema y la traducción de ingles y español con i18.
+                    <br />
+                    <a href="https://ipmoviles.com">ipmoviles.com</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="titulo_laboral">Junio 2023</p>
+                <div class="contenidoL">
+                  <p class="titulo_laboral">Traducción contenido página web</p>
+                  <p class="subtituloL">Independiente</p>
+                  <p>
+                    Me encargué de traducir y actualizar diversos elementos de
+                    un sitio web informativo. Se requería que el idioma
+                    principal del sitio fuera el inglés. Dado que el sitio había
+                    sido creado hace varios años y no se había actualizado su
+                    contenido, trabajamos en mejorar su funcionalidad y
+                    asegurarnos de que todo estuviera funcionando correctamente.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="titulo_laboral">Abril 2023</p>
+                <div class="contenidoL">
+                  <p class="titulo_laboral">Mapa interactivo de Neiva</p>
+                  <p class="subtituloL">Independiente</p>
+                  <p>
+                    Colaboré en un proyecto de grado que consistió en
+                    desarrollar un mapa interactivo de los barrios de Neiva.
+                    Utilizando PHP, HTML, CSS y JavaScript, creé el mapa que
+                    mostraba datos específicos de cada barrio, como población
+                    por género, edades, etc y los datos fueron obtenidos de una
+                    base de datos creada con Workbench.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <a
+              href="https://drive.google.com/drive/folders/1I8oKpWU133r3Xo0FhEwc0lJCZrm4ROaa?usp=sharing"
+              target="_blank"
+              class="certificados"
+              >CERTIFICADOS LABORALES</a
+            >
+          </ul>
+        </div>
+        <div class="habilidades">
+          <div class="hard_skill">
+            <h2 class="hard_skill-titulo">HABILIDADES TÉCNICAS</h2>
+            <p class="skills">REACT</p>
+            <p class="skills">NodeJs</p>
+            <p class="skills">MySQL</p>
+            <p class="skills">Material UI</p>
+            <p class="skills">Tailwind</p>
+            <p class="skills">GitHut</p>
+            <p class="skills">SpringBoot</p>
+          </div>
+
+          <div class="soft_skill">
+            <h2 class="hard_skill-titulo">HABILIDADES BLANDAS</h2>
+            <p class="skills">Resolución de Problemas</p>
+            <p class="skills">Comunicación</p>
+            <p class="skills">Aprendizaje Continuo</p>
+            <p class="skills">Trabajo En Equipo</p>
+          </div>
+        </div>
+      </section>
     </section>
-</body>
-
+  </body>
 </html>
